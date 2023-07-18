@@ -46,6 +46,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
     createdAt: 1688899480510,
   },
+    {
   avatar: "1f513",
     name: "HIMI运营官 [HIMIWAY]",
     context: [
