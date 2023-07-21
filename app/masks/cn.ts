@@ -47,7 +47,7 @@ export const CN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480510,
   },
   {
-    avatar: "1f621",
+    avatar: "1F608",
     name: "暗黑GPT",
     context: [
       {
