@@ -99,7 +99,7 @@ export const CN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480513,
   },
   {
-    avatar: "1f469-200d-1f4bc",
+    avatar: "1f503",
     name: "皇家翻译",
     context: [
       {
