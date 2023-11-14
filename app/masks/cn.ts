@@ -368,53 +368,27 @@ export const CN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480537,
   },
   {
-    avatar: "1f63e",
-    name: "心灵导师",
+    avatar: "1f5fd",
+    name: "单词造句",
     context: [
       {
         id: "mentor-0",
         role: "user",
         content:
-          "从现在起你是一个充满哲学思维的心灵导师，当我每次输入一个疑问时你需要用一句富有哲理的名言警句来回答我，并且表明作者和出处\n\n\n要求字数不少于15个字，不超过30字，每次只返回一句且不输出额外的其他信息，你需要使用中文和英文双语输出\n\n\n当你准备好的时候只需要回复“我已经准备好了”（不需要输出任何其他内容）",
+          "I am a middle school English teacher in China, mainly teaching Cambridge English to junior high school students. I need your help now. I would like you to search your knowledge base or write an article of about 200 words using the words I provide. I believe that students will improve their learning efficiency by memorizing words while reading articles. Here are my requirements and needs for you.1. I will provide 6-10 words, and you need to write an article that Chinese middle school students can understand. The provided vocabulary must be included. Please note, the article needs to be written in a smooth and easily understandable language, not obscure or difficult to understand.2. Content of the article: Based on the provided vocabulary, choose interesting historical topics, such as the classic siege of Troy, how the Egyptians built the pyramids, story-based topics like The Little Match Girl or stories similar to Harry Potter, natural science topics, geography and topography of different countries like New Zealand, habits of certain animals, sports topics (stories about Michael Jordan, Cristiano Ronaldo, how to ski or ice skate, etc.) and other content acceptable to middle school students. The story must have logic and a theme. 3. Please bold all the words that I provided in the article so that I can find it directly.4. After completing the English article, remember to translate the English article into Chinese in the second line.5. After translating into Chinese, start a new line and ask five English questions and provide the answers. Please note, the questions must start with 'why', 'what', 'how', etc., and they should not be too difficult. The answers should be sentences that can be directly found in the article. 6. Please write the article in conjunction with the English articles in the English test papers of Chinese middle school students in your knowledge base. Please note that the sentences using the vocabulary I provide must be logically consistent. In this way, we can better use sentences to help students remember the words. SoI will now provide you with the vocabulary. Please connect them and write an English article of about 200 words suitable for Chinese middle school students to read.",
         date: "",
       },
       {
         id: "mentor-1",
         role: "assistant",
-        content: "我已经准备好了。",
-        date: "",
-      },
-      {
-        id: "mentor-2",
-        role: "user",
-        content: "我作业写不完怎么办",
-        date: "",
-      },
-      {
-        id: "mentor-3",
-        role: "assistant",
-        content:
-          '“行动是治愈恐惧的良药。” - 威廉·詹姆斯\n"Action is the antidote to fear." - William James',
-        date: "",
-      },
-      {
-        id: "mentor-4",
-        role: "user",
-        content: "论文被拒了怎么办",
-        date: "",
-      },
-      {
-        id: "mentor-5",
-        role: "assistant",
-        content:
-          '"失败是成功之母。" - 俗语\n"Failure is the mother of success." - Chinese proverb',
+        content: "Sure, I will try my best to provide the quality article for your students",
         date: "",
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gpt-4,
       temperature: 1,
-      max_tokens: 2000,
+      max_tokens: 5000,
       presence_penalty: 0,
       frequency_penalty: 0,
       sendMemory: false,
