@@ -94,7 +94,7 @@ export const CN_MASKS: BuiltinMask[] = [
         id: "work-1",
         role: "system",
         content:
-          "我是已经在KBO做了十年的资深顾问，你可以问我任何问题，我全力帮您解答",
+          "我是已经在Kbo做了十年的资深顾问，你可以问我任何问题，我全力帮您解答",
         date: "",
       },
     ],
